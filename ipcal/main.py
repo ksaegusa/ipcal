@@ -6,3 +6,6 @@ import click
 def main(ip):
   ipnetwork = util.input_value_cast_to_ipv4network(ip)
   util.ipnetwork_information(ipnetwork)
+
+if __name__ == '__main__':
+  main()
